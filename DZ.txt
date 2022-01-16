@@ -1,0 +1,204 @@
+JSON
+ 4. Создать внешний репозиторий c названием JSON.
+Repositories - New - Create repository
+
+ 5. Клонировать репозиторий JSON на локальный компьютер. 
+git clone https://github.com/SvetlanaTerekhina/JSON.git
+
+ 6. Внутри локального JSON создать файл “new.json”. 
+cd JSON 
+cat > new.json
+
+ 7. Добавить файл под гит.
+git add new.json
+
+ 8. Закоммитить файл.
+git commit -m "text for new.json"
+
+ 9. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 10. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON.
+vim new.json
+{
+	"name": "Svetlana",
+	"age": 30,
+	"number_of_animals": 1,
+	"salary": 50000
+}
+
+ 11. Отправить изменения на внешний репозиторий.
+git add new.json
+git commit -m "new text for new.json"
+git push
+
+ 12. Создать файл preferences.json
+cat > preferences.json
+
+ 13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
+{
+	"film": "bad_santa",
+	"soap_opera": "evangelion",
+	"meal": "dumplings",
+	"time_of_the_year": "autum",
+	"country": "Scotland"
+}
+
+ 14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
+cat > sklls.json
+{
+	"skills": [
+		"Базовая теория",
+		"Клиент серверная архитектура",
+		"Методы запросов на сервер",
+		"Что такое JSON, XM",
+		"Тестирование API",
+		"Снятие и чтение логов",
+		"Postman, Fidler",
+		"VPN",
+		"Dev Tools веб браузеров",
+		"Мобильное тестирование",
+		"Командная строка (terminal) Linux Ubuntu",
+		"Доступ к удалённым серверам",
+		"Основы SQL",
+		"Git",
+		"Jmeter",
+		"Методология разработки Scrum",
+		"Python"
+  ]
+}
+
+ 15. Отправить сразу 2 файла на внешний репозиторий.
+git preferences.json
+git sklls.json
+git commit -m "new text for new.json"
+git push
+
+ 16. На веб интерфейсе создать файл bug_report.json.
+Create new file
+
+ 17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+ 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
+Edit file
+{
+  "Bug_id": "1",
+  "Title": "Цвет текста кнопки "Получить результат" сливаниется с цветом фона кнопки при наведении курсора, на странице услуги",
+  "Enviroment": "macOS BigSur 11.2.3 Google Chrome v:94.0.4606.71(x86_64)",
+  "Precondition": "Открыть страницу услуги. Пример (https://esculab.com/item-service-1-2-006)",
+  "STR": "1. Навести курсор на кнопку "Получить результат".",
+  "AR": "Цвет текста кнопки "Получить результат" сливается с цветом кнопки фона при наведении курсора",
+  "ER": "Цвет текста кнопки "Получить результат" становится белым при наведении курсора",
+  "Attachments": "Image (Video) link"
+}
+
+ 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 20. Синхронизировать внешний и 7локальный репозиторий JSON
+cd JSON
+git pull
+
+
+
+XML
+ 21. Создать внешний репозиторий c названием XML.
+Repositories - New - Create repository
+
+ 22. Клонировать репозиторий XML на локальный компьютер.
+git clone https://github.com/SvetlanaTerekhina/XML.git
+
+ 23. Внутри локального XML создать файл “new.xml”.
+cd XML 
+cat > new.xml
+
+ 24. Добавить файл под гит.
+git add new.xml
+
+ 25. Закоммитить файл.
+git commit -m "text for new.json"
+
+ 26. Отправить файл на внешний GitHub репозиторий.
+git push
+
+ 27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
+vim new.xml
+<person>
+    <name>Svetlana</name>
+    <age>30</age>
+    <number_of_animals>1</number_of_animals>
+    <salary>50000</salary>
+</person>
+ 
+ 28. Отправить изменения на внешний репозиторий.
+git add new.xml
+git commit -m "new text for new.xml"
+git push
+
+ 29. Создать файл preferences.xml
+cat > preferences.xml
+
+ 30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
+<preferences>
+	<film>bad_santa</film>
+	<soap_opera>evangelion</soap_opera>
+	<meal>dumplings</meal>
+	<time_of_the_year>autum</time_of_the_year>
+	<country>Scotland</country>
+</preferences> 
+
+31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
+cat > skills.xml
+<реrson>
+	<name>Светлана</nаmе>
+	<skills>Базовая теория</skills>
+	<skills>Клиент серверная архитектура</skills>
+	<skills>Методы запросов на сервер</skills>
+	<skills>Что такое JSON, XM</skills>
+	<skills>Тестирование API</skills>
+	<skills>Снятие и чтение логов</skills>
+	<skills>Postman, Fidler</skills>
+	<skills>VPN</skills>
+	<skills>Dev Tools веб браузеров</skills>
+	<skills>Мобильное тестирование</skills>
+	<skills>Командная строка (terminal) Linux Ubuntu</skills>
+	<skills>Доступ к удалённым серверам</skills>
+	<skills>Основы SQL</skills>
+	<skills>Git</skills>
+	<skills>Jmeter</skills>
+	<skills>Методология разработки Scrum</skills>
+	<skills>Python</skills>
+</person>
+
+ 32. Сделать коммит в одну строку.
+git add . && git commit -am "comment"
+
+ 33. Отправить сразу 2 файла на внешний репозиторий.
+git push
+
+ 34. На веб интерфейсе создать файл bug_report.xml.
+Create new file
+
+ 35. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit new file
+
+ 36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
+Edit file
+<bug_report>
+  <Bug_id>1</Bug_id>
+  <Title>Цвет текста кнопки "Получить результат" сливаниется с цветом фона кнопки при наведении курсора, на странице услуги</Title>
+  <Enviroment>macOS BigSur 11.2.3 Google Chrome v:94.0.4606.71(x86_64)</Enviroment>
+  <Precondition>Открыть страницу услуги. Пример (https://esculab.com/item-service-1-2-006)<Precondition>
+  <STR>Навести курсор на кнопку "Получить результат"</STR>
+  <AR>Цвет текста кнопки "Получить результат" сливается с цветом кнопки фона при наведении курсора</AR>
+  <ER>Цвет текста кнопки "Получить результат" становится белым при наведении курсора</ER>
+  <Attachments>Image (Video)</Attachments>
+</bug_report>
+
+ 37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+Commit changes
+
+ 38. Синхронизировать внешний и локальный репозиторий XML
+cd XML
+git pull
